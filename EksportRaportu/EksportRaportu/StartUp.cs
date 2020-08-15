@@ -7,8 +7,6 @@ namespace EksportRaportu
     {
         static void Main(string[] args)
         {
-            DeserializeXml deserializeXml = new DeserializeXml();
-
             Console.ReadLine();
         }
     }

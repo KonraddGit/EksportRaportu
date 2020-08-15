@@ -1,6 +1,0 @@
-﻿namespace EksportRaportu
-{
-    class SerializeXml
-    {
-    }
-}
