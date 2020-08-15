@@ -1,0 +1,12 @@
+C:\Users\Konrad\Desktop\Work\Repozytorium Lokalne\EksportRaportu\EksportRaportu\EksportRaportu\obj\Debug\netcoreapp3.1\ReportExport.AssemblyInfoInputs.cache
+C:\Users\Konrad\Desktop\Work\Repozytorium Lokalne\EksportRaportu\EksportRaportu\EksportRaportu\obj\Debug\netcoreapp3.1\ReportExport.AssemblyInfo.cs
+C:\Users\Konrad\Desktop\Work\Repozytorium Lokalne\EksportRaportu\EksportRaportu\EksportRaportu\bin\Debug\netcoreapp3.1\ReportExport.exe
+C:\Users\Konrad\Desktop\Work\Repozytorium Lokalne\EksportRaportu\EksportRaportu\EksportRaportu\bin\Debug\netcoreapp3.1\ReportExport.deps.json
+C:\Users\Konrad\Desktop\Work\Repozytorium Lokalne\EksportRaportu\EksportRaportu\EksportRaportu\bin\Debug\netcoreapp3.1\ReportExport.runtimeconfig.json
+C:\Users\Konrad\Desktop\Work\Repozytorium Lokalne\EksportRaportu\EksportRaportu\EksportRaportu\bin\Debug\netcoreapp3.1\ReportExport.runtimeconfig.dev.json
+C:\Users\Konrad\Desktop\Work\Repozytorium Lokalne\EksportRaportu\EksportRaportu\EksportRaportu\bin\Debug\netcoreapp3.1\ReportExport.dll
+C:\Users\Konrad\Desktop\Work\Repozytorium Lokalne\EksportRaportu\EksportRaportu\EksportRaportu\bin\Debug\netcoreapp3.1\ReportExport.pdb
+C:\Users\Konrad\Desktop\Work\Repozytorium Lokalne\EksportRaportu\EksportRaportu\EksportRaportu\obj\Debug\netcoreapp3.1\ReportExport.csprojAssemblyReference.cache
+C:\Users\Konrad\Desktop\Work\Repozytorium Lokalne\EksportRaportu\EksportRaportu\EksportRaportu\obj\Debug\netcoreapp3.1\ReportExport.dll
+C:\Users\Konrad\Desktop\Work\Repozytorium Lokalne\EksportRaportu\EksportRaportu\EksportRaportu\obj\Debug\netcoreapp3.1\ReportExport.pdb
+C:\Users\Konrad\Desktop\Work\Repozytorium Lokalne\EksportRaportu\EksportRaportu\EksportRaportu\obj\Debug\netcoreapp3.1\ReportExport.genruntimeconfig.cache

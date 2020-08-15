@@ -1,12 +1,21 @@
-﻿using System;
-using System.Xml.Linq;
+﻿using ReportExport.Models;
+using System;
 
-namespace EksportRaportu
+namespace ReportExport
 {
-    class StartUp
+    public class StartUp
     {
         static void Main(string[] args)
         {
+            const string XML_FILE = "BmwOriginal.xml";
+
+            XmlSerializerHelper xmlSerializerHelper = new XmlSerializerHelper();
+           
+            ProductionReport i = xmlSerializerHelper.DeserializeObject(XML_FILE);
+
+            Console.WriteLine(i.Date);
+
+
             Console.ReadLine();
         }
     }
