@@ -9,12 +9,13 @@ namespace ReportExport
         {
             const string XML_FILE = "BmwOriginal.xml";
 
-            XmlSerializerHelper xmlSerializerHelper = new XmlSerializerHelper();
+            XmlSerializationHelper xmlSerializerHelper = new XmlSerializationHelper();
            
-            ProductionReport i = xmlSerializerHelper.DeserializeObject(XML_FILE);
+            ProductionReport i = xmlSerializerHelper.DeserializeXml(XML_FILE);
 
             Console.WriteLine(i.Date);
 
+            xmlSerializerHelper.SerializeObject();
 
             Console.ReadLine();
         }
