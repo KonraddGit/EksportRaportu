@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Konrad\\source\\repos\\EksportRaportu\\EksportRaportu\\EksportRaportu.csproj",
+      "projectUniqueName": "C:\\Users\\Konrad\\Desktop\\Work\\Repozytorium Lokalne\\EksportRaportu\\EksportRaportu\\EksportRaportu\\EksportRaportu.csproj",
       "projectName": "EksportRaportu",
-      "projectPath": "C:\\Users\\Konrad\\source\\repos\\EksportRaportu\\EksportRaportu\\EksportRaportu.csproj",
+      "projectPath": "C:\\Users\\Konrad\\Desktop\\Work\\Repozytorium Lokalne\\EksportRaportu\\EksportRaportu\\EksportRaportu\\EksportRaportu.csproj",
       "packagesPath": "C:\\Users\\Konrad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Konrad\\source\\repos\\EksportRaportu\\EksportRaportu\\obj\\",
+      "outputPath": "C:\\Users\\Konrad\\Desktop\\Work\\Repozytorium Lokalne\\EksportRaportu\\EksportRaportu\\EksportRaportu\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

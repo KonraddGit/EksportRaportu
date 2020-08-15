@@ -1,12 +1,13 @@
 ﻿using System;
+using System.Xml.Linq;
 
 namespace EksportRaportu
 {
-    class Program
+    class StartUp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.ReadLine();
         }
     }
 }
