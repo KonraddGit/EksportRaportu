@@ -5,9 +5,9 @@ using System.Xml.Serialization;
 
 namespace ReportExport
 {
-    public class XmlSerializerHelper
+    public class XmlSerializationHelper
     {
-        public ProductionReport DeserializeObject(string filename)
+        public ProductionReport DeserializeXml(string filename)
         {
             Console.WriteLine("Reading with Stream");
 
@@ -21,6 +21,17 @@ namespace ReportExport
             }
 
             return i;
+        }
+
+        public void SerializeObject()
+        {
+            ProductionReport i = new ProductionReport();
+            
+            XmlSerializer mySerializer = new XmlSerializer(typeof(ProductionReport));
+            
+            StreamWriter myWriter = new StreamWriter("serializedXml.xml");
+            mySerializer.Serialize(myWriter, i);
+            myWriter.Close();
         }
     }
 }
