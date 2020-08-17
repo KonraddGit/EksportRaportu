@@ -15,10 +15,14 @@ namespace ReportExport
 
             foreach (var items in deserializedObject.Factories.Factory.ProducedCars.Car)
             {
-                Console.WriteLine(items.Features.Feature);
+                Console.WriteLine($"\n{items.VIN}\n");
+                foreach (var item in items.Features.Feature)
+                {
+                    Console.WriteLine($"{item.Code} + {item.Text}");
+                }
             }
 
-            xmlSerializerHelper.SerializeObject(deserializedObject);
+            xmlSerializerHelper.SerializeObject(deserializedObject.Factories.Factory.ProducedCars);
 
             Console.ReadLine();
         }

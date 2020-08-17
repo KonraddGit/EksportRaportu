@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ProductionReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Manufacturer="BMW" Date="2017-03-18T12:36:02.8036669+01:00">
-  <Factories>
-    <Factory Name="Frankfurt">
-      <ProducedCars>
-        <Car VIN="O002CBC996">
-          <ProductionYear>2020</ProductionYear>
-          <Model>X5</Model>
-          <Features>
-            <Feature>Chromowane Felgi</Feature>
-          </Features>
-        </Car>
-        <Car VIN="O004TBC025">
-          <ProductionYear>2019</ProductionYear>
-          <Model>X1</Model>
-          <Features>
-            <Feature>Reflektory xenonowe</Feature>
-          </Features>
-        </Car>
-      </ProducedCars>
-    </Factory>
-  </Factories>
-</ProductionReport>
+<ProducedCars xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Car VIN="O002CBC996">
+    <ProductionYear>2020</ProductionYear>
+    <Model>X5</Model>
+    <Features>
+      <Feature Code="CHF">Chromowane Felgi</Feature>
+      <Feature Code="SZW">Sportowe zawieszenie</Feature>
+      <Feature Code="SZD">Szyberdach</Feature>
+    </Features>
+  </Car>
+  <Car VIN="O004TBC025">
+    <ProductionYear>2019</ProductionYear>
+    <Model>X1</Model>
+    <Features>
+      <Feature Code="RXE">Reflektory xenonowe</Feature>
+    </Features>
+  </Car>
+</ProducedCars>

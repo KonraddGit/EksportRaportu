@@ -9,8 +9,6 @@ namespace ReportExport
     {
         public ProductionReport DeserializeXml(string filename)
         {
-            Console.WriteLine("Reading with Stream");
-
             XmlSerializer serializer = new XmlSerializer(typeof(ProductionReport));
 
             ProductionReport productionReport;
@@ -23,14 +21,15 @@ namespace ReportExport
             return productionReport;
         }
 
-        public void SerializeObject(ProductionReport productionReport)
+        public void SerializeObject(ProducedCars producedCars)
         {
-            
-            XmlSerializer mySerializer = new XmlSerializer(typeof(ProductionReport));
-            
-            StreamWriter myWriter = new StreamWriter("serializedXml.xml");
-            mySerializer.Serialize(myWriter, productionReport);
-            myWriter.Close();
+
+            XmlSerializer mySerializer = new XmlSerializer(typeof(ProducedCars));
+
+            using (StreamWriter myWriter = new StreamWriter("serializedXml.xml"))
+            {
+                mySerializer.Serialize(myWriter, producedCars);
+            }
         }
     }
 }

@@ -1,11 +1,12 @@
-﻿using System.Xml.Serialization;
+﻿using System.Collections.Generic;
+using System.Xml.Serialization;
 
 namespace ReportExport.Models
 {
+    [XmlRoot(ElementName = "Features")]
     public class Features
     {
-        [XmlAttribute("Code")]
-        public string Code { get; set; }
-        public string Feature { get; set; }
+        [XmlElement(ElementName = "Feature")]
+        public List<Feature> Feature { get; set; }
     }
 }
