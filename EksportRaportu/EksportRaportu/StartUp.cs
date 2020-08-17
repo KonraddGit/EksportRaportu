@@ -13,10 +13,10 @@ namespace ReportExport
            
             ProductionReport deserializedObject = xmlSerializerHelper.DeserializeXml(XML_FILE);
 
-            //foreach (var items in i.Factories.Factory.ProducedCars.Car)
-            //{
-            //    Console.WriteLine(items.ToString());
-            //}
+            foreach (var items in deserializedObject.Factories.Factory.ProducedCars.Car)
+            {
+                Console.WriteLine(items.Features.Feature);
+            }
 
             xmlSerializerHelper.SerializeObject(deserializedObject);
 
