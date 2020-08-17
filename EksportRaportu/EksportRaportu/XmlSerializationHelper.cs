@@ -13,24 +13,23 @@ namespace ReportExport
 
             XmlSerializer serializer = new XmlSerializer(typeof(ProductionReport));
 
-            ProductionReport i;
+            ProductionReport productionReport;
 
             using (Stream reader = new FileStream(filename, FileMode.Open))
             {
-                i = (ProductionReport)serializer.Deserialize(reader);
+                productionReport = (ProductionReport)serializer.Deserialize(reader);
             }
 
-            return i;
+            return productionReport;
         }
 
-        public void SerializeObject()
+        public void SerializeObject(ProductionReport productionReport)
         {
-            ProductionReport i = new ProductionReport();
             
             XmlSerializer mySerializer = new XmlSerializer(typeof(ProductionReport));
             
             StreamWriter myWriter = new StreamWriter("serializedXml.xml");
-            mySerializer.Serialize(myWriter, i);
+            mySerializer.Serialize(myWriter, productionReport);
             myWriter.Close();
         }
     }

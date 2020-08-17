@@ -11,11 +11,14 @@ namespace ReportExport
 
             XmlSerializationHelper xmlSerializerHelper = new XmlSerializationHelper();
            
-            ProductionReport i = xmlSerializerHelper.DeserializeXml(XML_FILE);
+            ProductionReport deserializedObject = xmlSerializerHelper.DeserializeXml(XML_FILE);
 
-            Console.WriteLine(i.Date);
+            //foreach (var items in i.Factories.Factory.ProducedCars.Car)
+            //{
+            //    Console.WriteLine(items.ToString());
+            //}
 
-            xmlSerializerHelper.SerializeObject();
+            xmlSerializerHelper.SerializeObject(deserializedObject);
 
             Console.ReadLine();
         }
