@@ -1,5 +1,6 @@
 ﻿using ReportExport.Models;
 using System;
+using System.Xml.Xsl;
 
 namespace ReportExport
 {
@@ -23,6 +24,12 @@ namespace ReportExport
             }
 
             xmlSerializerHelper.SerializeObject(deserializedObject.Factories.Factory.ProducedCars);
+
+
+            CsvHelper csvHelper = new CsvHelper();
+
+            
+            csvHelper.TransformToCsv("serializedXml.xml");
 
             Console.ReadLine();
         }
