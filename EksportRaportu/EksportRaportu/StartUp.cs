@@ -1,5 +1,7 @@
 ﻿using ReportExport.Models;
 using System;
+using System.IO;
+using System.Text;
 
 namespace ReportExport
 {
@@ -23,6 +25,23 @@ namespace ReportExport
             }
 
             xmlSerializerHelper.SerializeObject(deserializedObject.Factories.Factory.ProducedCars);
+            
+            CsvHelper csvHelper = new CsvHelper();
+            csvHelper.TransformToCsv("serializedXml.xml");
+
+
+            using (StreamReader sr = new StreamReader("output.csv"))
+            {
+                Console.WriteLine("\n\n Csv file opening ...\n\n");
+                sr.ReadLine();
+
+                string csvLine;
+
+                while ((csvLine = sr.ReadLine()) != null)
+                {
+                    Console.WriteLine(csvLine);
+                }
+            }
 
             Console.ReadLine();
         }
