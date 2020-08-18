@@ -1,0 +1,11 @@
+C:\Users\Konrad\Desktop\Work\Repozytorium Lokalne\EksportRaportu\EksportRaportu\EksportRaportu\bin\Debug\netcoreapp3.1\EksportRaportu.exe
+C:\Users\Konrad\Desktop\Work\Repozytorium Lokalne\EksportRaportu\EksportRaportu\EksportRaportu\bin\Debug\netcoreapp3.1\EksportRaportu.deps.json
+C:\Users\Konrad\Desktop\Work\Repozytorium Lokalne\EksportRaportu\EksportRaportu\EksportRaportu\bin\Debug\netcoreapp3.1\EksportRaportu.runtimeconfig.json
+C:\Users\Konrad\Desktop\Work\Repozytorium Lokalne\EksportRaportu\EksportRaportu\EksportRaportu\bin\Debug\netcoreapp3.1\EksportRaportu.runtimeconfig.dev.json
+C:\Users\Konrad\Desktop\Work\Repozytorium Lokalne\EksportRaportu\EksportRaportu\EksportRaportu\bin\Debug\netcoreapp3.1\EksportRaportu.dll
+C:\Users\Konrad\Desktop\Work\Repozytorium Lokalne\EksportRaportu\EksportRaportu\EksportRaportu\bin\Debug\netcoreapp3.1\EksportRaportu.pdb
+C:\Users\Konrad\Desktop\Work\Repozytorium Lokalne\EksportRaportu\EksportRaportu\EksportRaportu\obj\Debug\netcoreapp3.1\EksportRaportu.AssemblyInfoInputs.cache
+C:\Users\Konrad\Desktop\Work\Repozytorium Lokalne\EksportRaportu\EksportRaportu\EksportRaportu\obj\Debug\netcoreapp3.1\EksportRaportu.AssemblyInfo.cs
+C:\Users\Konrad\Desktop\Work\Repozytorium Lokalne\EksportRaportu\EksportRaportu\EksportRaportu\obj\Debug\netcoreapp3.1\EksportRaportu.dll
+C:\Users\Konrad\Desktop\Work\Repozytorium Lokalne\EksportRaportu\EksportRaportu\EksportRaportu\obj\Debug\netcoreapp3.1\EksportRaportu.pdb
+C:\Users\Konrad\Desktop\Work\Repozytorium Lokalne\EksportRaportu\EksportRaportu\EksportRaportu\obj\Debug\netcoreapp3.1\EksportRaportu.genruntimeconfig.cache
